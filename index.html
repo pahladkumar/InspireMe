@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireMe - Motivational Quotes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">InspireMe</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <a href="#" class="nav-link" data-section="home">Home</a>
+            <a href="#" class="nav-link" data-section="templates">Templates</a>
+            <a href="#" class="nav-link" data-section="about">About</a>
+            <a href="#" class="nav-link" data-section="community">Community</a>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="section active" id="home">
+            <header>
+                <div class="language-selector">
+                    <button class="language-btn active" data-lang="en">English</button>
+                    <button class="language-btn" data-lang="hi">हिंदी</button>
+                    <button class="language-btn" data-lang="ne">नेपाली</button>
+                </div>
+                <h1>InspireMe</h1>
+                <p class="subtitle">Fuel your day with powerful motivation. Discover, share, and download inspirational quotes.</p>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </header>
+            <div class="quote-container">
+                <div class="quote-card quote-of-the-day template-1" id="quoteCard">
+                    <h2><i class="fas fa-star"></i> Quote of the Day</h2>
+                   <i> <p class="quote-text" id="quoteText">The only way to do great work is to love what you do.</p>
+                    <p class="quote-author" id="quoteAuthor">— Steve Jobs</p></i>
+                </div>
+                <div class="buttons">
+                    <button id="newQuoteBtn">
+                        <i class="fas fa-sync-alt"></i> New Quote
+                    </button>
+                    <div class="download-container">
+                        <button id="downloadQuoteBtn">
+                            <i class="fas fa-download"></i> Download
+                        </button>
+                        <div class="download-options" id="downloadOptions">
+                            <button data-format="txt"><i class="fas fa-file-alt"></i> Text File</button>
+                            <button data-format="png"><i class="fas fa-image"></i> Image</button>
+                            <button data-format="pdf"><i class="fas fa-file-pdf"></i> PDF</button>
+                        </div>
+                    </div>
+                    <button id="copyQuoteBtn" class="secondary">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <button id="tweetQuoteBtn" class="accent">
+                        <i class="fab fa-twitter"></i> Tweet
+                    </button>
+                    <button id="whatsappBtn" class="whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button id="instagramBtn" class="instagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </button>
+                </div>
+            </div>
+            <div class="form-container">
+                <h2><i class="fas fa-pen-fancy"></i> Share Your Wisdom</h2>
+                <form id="quoteForm">
+                    <div class="form-group">
+                        <label for="quote"><i class="fas fa-quote-left"></i> Your Motivational Quote</label>
+                        <textarea id="quote" name="quote" placeholder="Enter your inspiring quote here and see Community" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="author"><i class="fas fa-user"></i> Your Name</label>
+                        <input type="text" id="author" name="author" placeholder="Who said this?" required>
+                    </div>
+                    <button type="submit" class="pulse">
+                        <i class="fas fa-paper-plane"></i> Submit Quote
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="section" id="templates">
+            <div class="template-selector">
+                <h2><i class="fas fa-palette"></i> Choose a Design Template</h2>
+                <p>Select from our beautiful templates to customize your quote's appearance</p>          
+                <div class="template-grid" id="templateGrid"> </div>
+            </div>
+        </section>
+        <section class="section" id="about">
+            <div class="about-section">
+                <h2><i class="fas fa-info-circle"></i> About InspireMe</h2>
+                <p>InspireMe is a platform dedicated to spreading positivity and motivation through powerful quotes. Our mission is to help people find inspiration in their daily lives and share that inspiration with others.</p>
+                <p>Whether you're looking for a daily dose of motivation or want to share your own wisdom with the world, InspireMe provides the tools to create beautiful, shareable quote images.</p>
+                <p>Our community of users contributes quotes that touch on various aspects of life - from career success to personal growth and happiness. Join us in building a more inspired world!</p>
+                <p>InspireMe was created in 2024 with the simple idea that a few words at the right time can make a big difference in someone's day.</p>
+            </div>
+        </section>
+        <section class="section" id="community">
+            <div class="user-quotes">
+                <h2><i class="fas fa-users"></i> Community Inspiration</h2>
+                <p style="text-align: center; margin-bottom: 1rem;">Discover quotes shared by our community members</p>
+                <div class="quotes-grid" id="quotesGrid"></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© <span id="year"></span> InspireMe. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
