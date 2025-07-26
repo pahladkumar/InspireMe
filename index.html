@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InspireMe - Motivational Quotes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+       
+    </style>
 </head>
 <body>
     <nav class="navbar">
-        <a href="#" class="navbar-brand">InspireMe</a>
+        <a href="#" class="navbar-brand" data-section="home">
+            InspireMe
+        </a>
         <button class="mobile-menu-btn" id="mobileMenuBtn">
             <i class="fas fa-bars"></i>
         </button>
@@ -37,8 +43,8 @@
             <div class="quote-container">
                 <div class="quote-card quote-of-the-day template-1" id="quoteCard">
                     <h2><i class="fas fa-star"></i> Quote of the Day</h2>
-                   <i> <p class="quote-text" id="quoteText">The only way to do great work is to love what you do.</p>
-                    <p class="quote-author" id="quoteAuthor">— Steve Jobs</p></i>
+                    <p class="quote-text" id="quoteText">The only way to do great work is to love what you do.</p>
+                    <p class="quote-author" id="quoteAuthor">— Steve Jobs</p>
                 </div>
                 <div class="buttons">
                     <button id="newQuoteBtn">
@@ -73,7 +79,7 @@
                 <form id="quoteForm">
                     <div class="form-group">
                         <label for="quote"><i class="fas fa-quote-left"></i> Your Motivational Quote</label>
-                        <textarea id="quote" name="quote" placeholder="Enter your inspiring quote here and see Community" required></textarea>
+                        <textarea id="quote" name="quote" placeholder="Enter your inspiring quote here and see it in the Community section" required></textarea>
                     </div>
                     <div class="form-group">
                         <label for="author"><i class="fas fa-user"></i> Your Name</label>
@@ -88,9 +94,21 @@
         <section class="section" id="templates">
             <div class="template-selector">
                 <h2><i class="fas fa-palette"></i> Choose a Design Template</h2>
-                <p>Select from our beautiful templates to customize your quote's appearance</p>          
-                <div class="template-grid" id="templateGrid"> </div>
+                 <div class="quote-container">
+                <div class="quote-card quote-of-the-day template-1" id="templatePreviewCard">
+                    <h2><i class="fas fa-star"></i> Quote Preview</h2>
+                    <p class="quote-text" id="templatePreviewText">The only way to do great work is to love what you do.</p>
+                    <p class="quote-author" id="templatePreviewAuthor">— Steve Jobs</p>
+                </div>
+                <div class="buttons">
+                    <button id="applyTemplateBtn">
+                        <i class="fas fa-check"></i> Apply to Main Quote
+                    </button>
+                </div>
+            </div>        
+                <div class="template-grid" id="templateGrid"></div>
             </div>
+          
         </section>
         <section class="section" id="about">
             <div class="about-section">
@@ -102,16 +120,46 @@
             </div>
         </section>
         <section class="section" id="community">
-            <div class="user-quotes">
-                <h2><i class="fas fa-users"></i> Community Inspiration</h2>
-                <p style="text-align: center; margin-bottom: 1rem;">Discover quotes shared by our community members</p>
-                <div class="quotes-grid" id="quotesGrid"></div>
+            <div class="community-container">
+                <div class="community-form-container">
+                    <h2><i class="fas fa-pen-fancy"></i> Share Your Wisdom</h2>
+                    <form id="communityQuoteForm">
+                        <div class="form-group">
+                            <label for="communityQuote"><i class="fas fa-quote-left"></i> Your Motivational Quote</label>
+                            <textarea id="communityQuote" name="communityQuote" placeholder="Share your inspiring words with the community..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="communityAuthor"><i class="fas fa-user"></i> Your Name</label>
+                            <input type="text" id="communityAuthor" name="communityAuthor" placeholder="Who said this?" required>
+                        </div>
+                        
+                        <div class="community-template-selector">
+                            <label><i class="fas fa-palette"></i> Choose a Design</label>
+                            <div class="community-template-grid" id="communityTemplateGrid"></div>
+                        </div>
+                        
+                        <button type="submit" class="pulse">
+                            <i class="fas fa-paper-plane"></i> Share with Community
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="user-quotes">
+                    <h2><i class="fas fa-users"></i> Community Inspiration</h2>
+                    <p style="text-align: center; margin-bottom: 1rem;">Discover quotes shared by our community members</p>
+                    <div class="spinner" id="communitySpinner"></div>
+                    <div class="quotes-grid" id="quotesGrid"></div>
+                </div>
             </div>
         </section>
     </div>
     <footer>
         <p>© <span id="year"></span> InspireMe. All rights reserved.</p>
     </footer>
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Success!</span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
