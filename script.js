@@ -1,4 +1,3 @@
-// Multilingual quotes data
 const quotesData = {
   en: [
     {
@@ -1214,8 +1213,8 @@ const quotesData = {
       author: "Anonymous",
     },
     {
-      text: "Your journey is just beginning.",
-      author: "Anonymous",
+      text: "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+      author: "Winston Churchill",
     },
   ],
   hi: [
@@ -1360,8 +1359,8 @@ const quotesData = {
       author: "राल्फ वाल्डो एमर्सन",
     },
     {
-      text: "हزار मील की यात्रा एक कदम से शुरू होती है।",
-      author: "लाओ त्ज़ु",
+      text: "टूटने का मतलब खत्म होना नहीं होता, कभी कभी टूटने से जिंदगी की नई शुरुवात होती है।",
+      author: "अज्ञात",
     },
     {
       text: "अपनी नजरें तारों पर रखें, और अपने पैर जमीन पर।",
@@ -1716,7 +1715,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपकी संभावनाएं अनंत हैं।",
+      text: "धैर्य रखिए, आसान बनने से पहले सभी चीजें कठिन होती है...!!",
       author: "अज्ञात",
     },
     {
@@ -1724,11 +1723,11 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "खुद को फिर से खोजने के लिए आप कभी बूढ़े नहीं होते।",
+      text: "हार को भी सहना सीखिए क्योंकि हर रास्ते पर जीत नहीं लिखी होती..!!",
       author: "अज्ञात",
     },
     {
-      text: "जीवन की एकमात्र सीमाएं वे हैं जो आप स्वयं निर्धारित करते हैं।",
+      text: "जीवन में गिरना भी अच्छा है, औकात का पता चलता है, बढ़ते हैं जब हाथ उठाने को, तो अपनों का पता चलता है...!",
       author: "अज्ञात",
     },
     {
@@ -1740,7 +1739,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आप प्रभाव डालने के लिए पैदा हुए हैं।",
+      text: " मैं खुद से कभी नही हारा तो ये दुनिया क्या हराएगी...!!",
       author: "अज्ञात",
     },
     {
@@ -1776,7 +1775,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "दुनिया को आपके अनूठे उपहारों की जरूरत है।",
+      text: "कुछ बड़ा करने जा रहे हो, तो जल्दी हार मत मानना क्योंकि शुरुवात हमेशा सबसे कठिन होती है...!",
       author: "अज्ञात",
     },
     {
@@ -1784,7 +1783,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने लड़ने लायक हैं।",
+      text: "अपने आप को इतना मजबूत कर लो की हर समय आपको अपना टारगेट ही नजर आए।",
       author: "अज्ञात",
     },
     {
@@ -1852,7 +1851,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "एकमात्र सीमा वह है जो आप स्वयं निर्धारित करते हैं।",
+      text: "सपनों को पाने के लिए समझदार नहीं, पागल बनना पड़ता है..!!",
       author: "अज्ञात",
     },
     {
@@ -1868,7 +1867,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने आपके भविष्य के खाका हैं।",
+      text: "जहाज तब तक नहीं डूबता जब तक इसमें कोई सुराख न हो इसलिए अपने SECRET किसी को मत बताओ !",
       author: "अज्ञात",
     },
     {
@@ -1884,15 +1883,15 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "सफलता इस बात में नहीं है कि आपके पास कितना है, बल्कि आप कितना देते हैं।",
+      text: "अपने लक्ष्य को ऊँचा रखो और तब तक मत रुको, जब तक आप इसे हासिल नहीं कर लेते है..!!",
       author: "अज्ञात",
     },
     {
-      text: "आप हवा को नियंत्रित नहीं कर सकते, लेकिन अपनी पाल को समायोजित कर सकते हैं।",
+      text: "कुछ लोग सफलता के सपने देखते हैं जबकि अन्य व्यक्ति जागते हैं और कड़ी मेहनत करते हैं।",
       author: "अज्ञात",
     },
     {
-      text: "फर्क डालने का एकमात्र तरीका अलग होना है।",
+      text: " रास्ता जितना दिखे वहां तक तो चलिए, आगे का रास्ता वहीं से नज़र आएगा।",
       author: "अज्ञात",
     },
     {
@@ -1900,19 +1899,19 @@ const quotesData = {
       author: "जॉर्ज लुकास",
     },
     {
-      text: "आपको रोकने वाली एकमात्र चीज आप स्वयं हैं।",
+      text: "नशा दौलत का नहीं कामयाबी का रखो..ज़िद मोहब्बत की नहीं मंजिल की रखो..!!",
       author: "अज्ञात",
     },
     {
-      text: "आप अपनी गलतियां नहीं हैं; आप वह हैं जो आप आगे करते हैं।",
+      text: "इंसान सफल तब होता है, जब वो दुनिया को नहीं बल्कि खुद को बदलना शुरू कर देता है।",
       author: "अज्ञात",
     },
     {
-      text: "सपने देखने वालों के लिए दुनिया संभावनाओं से भरी है।",
+      text: "अपनी जिन्दगी के 5 साल अपने सपनों को दे दो आपकी कामयाबी आने वाले 50 सालों तक आपका नाम लेती रहेगी..!!",
       author: "अज्ञात",
     },
     {
-      text: "आपकी यात्रा आपकी अपनी है। इसकी तुलना किसी और से न करें।",
+      text: "यूं ही नहीं मिलती मंजिलें एक जुनून सा दिल में जगाना होता है पूछा चिड़िया से कैसे बनाया आशियाना बोली भरनी पड़ती है उड़ान बार-बार तिनका तिनका उठाना होता है",
       author: "अज्ञात",
     },
     {
@@ -1920,19 +1919,19 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आप अपने भाग्य के रचयिता हैं।",
+      text: "जिद, गुस्सा, गलती, लालच और अपमान खर्राटो की तरह होते है, जो दूसरा करे तो चुभते है परन्तु स्वयं करे तो एहसास तक नहीं होता..!!",
       author: "अज्ञात",
     },
     {
-      text: "मायने रखने वाली एकमात्र चीज यह है कि आप आगे बढ़ते रहें।",
+      text: "केवल आत्मविश्वास होना चाहिए जिंदगी तो कहीं से भी शुरु हो सकती है।",
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने बुला रहे हैं। क्या आप जवाब देंगे?",
+      text: "जिंदा रहने के लिए मुझे जितना ऑक्सीजन जरूरी है उतने ही जरूरी मुझे मेरे सपने है..!!",
       author: "अज्ञात",
     },
     {
-      text: "अपने लक्ष्यों को हासिल करने का एकमात्र तरीका कार्रवाई करना है।",
+      text: " ज़िंदगी काटनी हो तो Job करो और ज़िंदगी जीनी हो तो Business करो..!!",
       author: "अज्ञात",
     },
     {
@@ -1940,7 +1939,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपकी सफलता की एकमात्र सीमा आपकी अपनी कल्पना है।",
+      text: "आप कई बार झुकते हैं, कई बार टूटते हैं.. उसके बाद ही बेहतर आकार लेते हैं..!!",
       author: "अज्ञात",
     },
     {
@@ -1952,43 +1951,43 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपका साहस दूसरों को बहादुर होने के लिए प्रेरित करेगा।",
+      text: "अतीत पर रोने से बेहतर है.. नये भविष्य का निर्माण कीजिए क्योंकि अतीत एक सबक़ है, भविष्य नहीं..!!",
       author: "अज्ञात",
     },
     {
-      text: "आप वह नहीं कर सकते जो आपने कभी कोशिश नहीं की।",
+      text: "जिंदगी की हर ठोकर ने एक सबक सिखाया है, रास्ता कैसा भी हो सिर्फ अपने पैरों पर भरोसा रखो..!!",
       author: "अज्ञात",
     },
     {
-      text: "आप अपने भविष्य के वास्तुकार हैं।",
+      text: "कल से करेंगे यह शब्द आपको कभी कामयाब नहीं होने देंगे..!!",
       author: "अज्ञात",
     },
     {
-      text: "सफल होने का एकमात्र तरीका आगे बढ़ते रहना है।",
+      text: "तुम्हारा एकांत ही तुम्हें एक सफल इंसान बना सकता है भीड़ तो तुम्हें भेड बना देगी",
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने आपके भविष्य के बीज हैं।",
+      text: " थक कर बैठा हूँ, हार कर नहीं, सिर्फ बाज़ी हाथ से निकली है ज़िन्दगी नहीं..!!",
       author: "अज्ञात",
     },
     {
-      text: "आपको रोकने वाली एकमात्र चीज डर है।",
+      text: "किस्मत सिर्फ मेंहनत से बदलती हैं बैठ कर सोचते रहने से नहीं",
       author: "अज्ञात",
     },
     {
-      text: "आप महानता हासिल करने में सक्षम हैं।",
+      text: "तू भी वही कर जो घड़ी करती है, चलते रह आज नहीं तो कल सफलता जरूर तेरे कदम चूमेगी।",
       author: "अज्ञात",
     },
     {
-      text: "फर्क डालने का एकमात्र तरीका कार्रवाई करना है।",
+      text: "तुम पैसे बनाओ, रिश्ते लोग खुद बनाएंगे !",
       author: "अज्ञात",
     },
     {
-      text: "आपकी यात्रा अभी शुरू हो रही है।",
+      text: "इंसान को इंसान से दूर करने वाली पहली चीज़ हैं जुबान और दूसरी चीज़ हैं पैसा..!!",
       author: "अज्ञात",
     },
     {
-      text: "एकमात्र सीमा वह है जो आप निर्धारित करते हैं।",
+      text: "मुझे नहीं पता मैं कैसे जीतूंगा बस मुझे इतना पता है की मैं हारने वाला तो नहीं हूँ..!!",
       author: "अज्ञात",
     },
     {
@@ -2000,7 +1999,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपकी संभावनाएं असीमित हैं।",
+      text: "राते भी अच्छी होगी, मंज़र भी अच्छा होगा, आगे बढ़ने की हिम्मत तो कर, सब कुछ अच्छा होगा।",
       author: "अज्ञात",
     },
     {
@@ -2020,7 +2019,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपको रोकने वाली एकमात्र चीज संदेह है।",
+      text: " मंजिल दूर हैं.. मगर जाना जरूर हैं..!!",
       author: "अज्ञात",
     },
     {
@@ -2048,11 +2047,11 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने आपके भविष्य की नींव हैं।",
+      text: "जी टूट कर भी मुस्करा दें उसे कोई नहीं हरा सकता।",
       author: "अज्ञात",
     },
     {
-      text: "आपको रोकने वाली एकमात्र चीज हार मानना है।",
+      text: " कुंडली में 'शनि दिमाग में मनी और जीवन में दुश्मनी तीनों हानिकारक होते हैं",
       author: "अज्ञात",
     },
     {
@@ -2064,15 +2063,15 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपकी संभावनाएं अनंत हैं।",
+      text: "किसी की संगत से यदि आपके विचार बदलने लगे तो समझ जाना वो कोई साधारण व्यक्ति नहीं है।",
       author: "अज्ञात",
     },
     {
-      text: "मायने रखने वाली एकमात्र चीज यह है कि आप चलते रहें।",
+      text: " ईमानदारी बड़ा महंगा शौक हैं हर कोई नहीं पाल सकता..!",
       author: "अज्ञात",
     },
     {
-      text: "आप अपनी सफलता के रचयिता हैं।",
+      text: "मन को इतना मजबूत बनाओ कि किसी के भी व्यवहार से मन की शांति भंग न होने पाये...!",
       author: "अज्ञात",
     },
     {
@@ -2084,23 +2083,23 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपको रोकने वाली एकमात्र चीज डर है।",
-      author: "अज्ञात",
+      text: "इस दुनिया में किसी के साथ खुद की तुलना मत करो यदि आप ऐसा करते हैं, तो आप खुद का अपमान कर रहे हैं।",
+      author: "बिल गेट्स",
     },
     {
-      text: "आप अपने सबसे जंगली सपनों को हासिल करने में सक्षम हैं।",
-      author: "अज्ञात",
+      text: "शिक्षा का उद्देश्य तथ्यों को सीखना नहीं होता है बल्कि शिक्षा का मुख्य दिमाग को प्रशिक्षित करना होता है।",
+      author: "अल्बर्ट आइन्स्टीन",
     },
     {
-      text: "फर्क डालने का एकमात्र तरीका स्वयं होना है।",
-      author: "अज्ञात",
+      text: "एक बेहतरीन किताब 100 अच्छे दोस्त के बराबर है, लेकिन एक सर्वश्रेष्ठ दोस्त पुस्तकालय के बराबर है।",
+      author: "एपीजे अब्दुल कलाम",
     },
     {
-      text: "आपकी यात्रा अभी शुरू हो रही है।",
-      author: "अज्ञात",
+      text: "तपस्या धर्म का पहला और आखिरी कदम है ।",
+      author: "महात्मा गांधी",
     },
     {
-      text: "एकमात्र सीमा वह है जो आप बनाते हैं।",
+      text: "शिक्षा से अच्छा दोस्त दुनिया में कोई नहीं होता  शिक्षित व्यक्ति हर जगह सम्मान पाता है ",
       author: "अज्ञात",
     },
     {
@@ -2108,16 +2107,16 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "अपने सपनों को हासिल करने का एकमात्र तरीका कार्रवाई करना है।",
+      text: "हमारा भविष्य हमारे वर्तमान पर निर्भर होता है इसीलिए अपने  लक्ष्य पर काम करो और अपने भविष्य को सुनहरा बनाओ",
       author: "अज्ञात",
     },
     {
-      text: "आपकी संभावनाएं असीम हैं।",
-      author: "अज्ञात",
+      text: "शिक्षा सबसे सशक्त हथियार है जिससे दुनिया को बदला जा सकता है।",
+      author: "नेल्सन मंडेला",
     },
     {
-      text: "मायने रखने वाली एकमात्र चीज यह है कि आप धक्का देते रहें।",
-      author: "अज्ञात",
+      text: "जिस दिन एक सिग्नेचर ऑटोग्राफ में बदल जाए तब मान लीजिएगा कि आप कामयाब हो गए हैं।",
+      author: "डॉक्टर अब्दुल कलाम",
     },
     {
       text: "आप अपने भाग्य के वास्तुकार हैं।",
@@ -2128,15 +2127,15 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने लड़ने लायक हैं।",
-      author: "अज्ञात",
+      text: "एक सामान्य जिंदगी जीने के लिए इंसान कोरोटी कपड़ा मकान के अलावा अगर इंसान को किसी चीज की सबसे ज्यादा जरूरत होती है तो वो है सिर्फ शिक्षा l",
+      author: "अमिताभ बच्चन",
     },
     {
       text: "आपको रोकने वाली एकमात्र चीज संदेह है।",
       author: "अज्ञात",
     },
     {
-      text: "आप फर्क डालने के लिए नियत हैं।",
+      text: "हार तो वो सबक है, जो आपको बेहतर होने का मौका देगी।",
       author: "अज्ञात",
     },
     {
@@ -2176,11 +2175,11 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपकी संभावनाएं असीमित हैं।",
+      text: "जो रातों को कोशिशों में गंवा देते हैं, वहीं सपनों की चिंगारी को और हवा देते हैं।",
       author: "अज्ञात",
     },
     {
-      text: "मायने रखने वाली एकमात्र चीज यह है कि आप चलते रहें।",
+      text: "हर छोटा बदलाव बड़ी कामयाबी का हिस्सा होता है ",
       author: "अज्ञात",
     },
     {
@@ -2192,7 +2191,7 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आपके सपने आपकी सफलता की नींव हैं।",
+      text: "घायल तो यहां हर परिंदा है। मगर जो फिर से उड़ सका वहीं जिंदा है..",
       author: "अज्ञात",
     },
     {
@@ -2200,15 +2199,15 @@ const quotesData = {
       author: "अज्ञात",
     },
     {
-      text: "आप महानता हासिल करने में सक्षम हैं।",
+      text: "ज़िंदगी का सफ़र मानो तो मौज है वरना समस्या तो रोज है।",
       author: "अज्ञात",
     },
     {
-      text: "फर्क डालने का एकमात्र तरीका कार्रवाई करना है।",
+      text: "अपने लक्ष्य के लिए जोशीले और जुनूनी बनिए..विश्वास रखिए, परिश्रम का फल सफलता हि है…!",
       author: "अज्ञात",
     },
     {
-      text: "आपकी यात्रा अभी शुरू हो रही है।",
+      text: "जीवन में शांति चाहते हैं तो दुसरों की शिकायतें करने से बेहतर है खुद को बदल लें। क्योंकि पुरी दुनिया में कारपेट बिछाने से खुद के पैरों में चप्पल पहन लेना अधिक सरल है।",
       author: "अज्ञात",
     },
   ],
@@ -3107,7 +3106,7 @@ const templates = [
     icon: "fa-gradient",
   },
   { id: 3, name: "Bold", color: "#6C63FF", icon: "fa-bold" },
-  { id: 4, name: "Minimal", color: "#F7FAFC", icon: "fa-minimize" },
+  { id: 4, name: "Minimal", color: "black", icon: "fa-minimize" },
   {
     id: 5,
     name: "Soft Pink",
@@ -3152,8 +3151,7 @@ const templates = [
   { id: 16, name: "Coral", color: "#EF476F", icon: "fa-fish" },
   { id: 17, name: "Gold", color: "#FFD166", icon: "fa-coins" },
   { id: 18, name: "Midnight", color: "#073B4C", icon: "fa-star" },
-  { id: 19, name: "Light", color: "#F8F9FA", icon: "fa-lightbulb" },
-  { id: 20, name: "Gray", color: "#E9ECEF", icon: "fa-sliders" },
+
   {
     id: 21,
     name: "Dawn",
@@ -3860,11 +3858,12 @@ const templates = [
     icon: "fa-star",
   },
 ];
-
-// DOM elements
 const quoteText = document.getElementById("quoteText");
 const quoteAuthor = document.getElementById("quoteAuthor");
 const quoteCard = document.getElementById("quoteCard");
+const templatePreviewText = document.getElementById("templatePreviewText");
+const templatePreviewAuthor = document.getElementById("templatePreviewAuthor");
+const templatePreviewCard = document.getElementById("templatePreviewCard");
 const newQuoteBtn = document.getElementById("newQuoteBtn");
 const copyQuoteBtn = document.getElementById("copyQuoteBtn");
 const tweetQuoteBtn = document.getElementById("tweetQuoteBtn");
@@ -3874,23 +3873,36 @@ const downloadQuoteBtn = document.getElementById("downloadQuoteBtn");
 const downloadOptions = document.getElementById("downloadOptions");
 const themeToggle = document.getElementById("themeToggle");
 const quoteForm = document.getElementById("quoteForm");
+const communityQuoteForm = document.getElementById("communityQuoteForm");
 const quotesGrid = document.getElementById("quotesGrid");
 const templateGrid = document.getElementById("templateGrid");
+const communityTemplateGrid = document.getElementById("communityTemplateGrid");
 const yearSpan = document.getElementById("year");
 const mobileMenuBtn = document.getElementById("mobileMenuBtn");
 const navLinks = document.getElementById("navLinks");
 const navLinksAll = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll(".section");
 const languageButtons = document.querySelectorAll(".language-btn");
-
+const applyTemplateBtn = document.getElementById("applyTemplateBtn");
+const toast = document.getElementById("toast");
+const toastMessage = document.getElementById("toastMessage");
+const communitySpinner = document.getElementById("communitySpinner");
 yearSpan.textContent = new Date().getFullYear();
 
 let currentLanguage = "en";
 let currentQuote = getRandomQuote();
+let currentTemplateId = 1;
+let selectedCommunityTemplateId = 1;
+communitySpinner.style.display = "block";
+setTimeout(() => {
+  updateQuoteDisplay();
+  renderTemplates();
+  renderCommunityTemplates();
+  loadCommunityQuotes();
+  communitySpinner.style.display = "none";
+}, 800);
 
-updateQuoteDisplay();
-renderTemplates();
-
+// Event listeners
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const isDark = document.body.classList.contains("dark-mode");
@@ -3916,6 +3928,7 @@ languageButtons.forEach((button) => {
     currentQuote = getRandomQuote();
     updateQuoteDisplay();
     animateQuoteChange();
+    showToast("Language changed to " + button.textContent);
   });
 });
 
@@ -3938,14 +3951,18 @@ navLinksAll.forEach((link) => {
     const icon = mobileMenuBtn.querySelector("i");
     icon.classList.remove("fa-times");
     icon.classList.add("fa-bars");
+
     window.scrollTo(0, 0);
   });
 });
+
 newQuoteBtn.addEventListener("click", () => {
   currentQuote = getRandomQuote();
   updateQuoteDisplay();
   animateQuoteChange();
+  showToast("New quote loaded");
 });
+
 copyQuoteBtn.addEventListener("click", () => {
   const textToCopy = `${currentQuote.text} — ${currentQuote.author}`;
   navigator.clipboard.writeText(textToCopy).then(() => {
@@ -3953,12 +3970,14 @@ copyQuoteBtn.addEventListener("click", () => {
     const originalIcon = icon.className;
     icon.className = "fas fa-check";
     copyQuoteBtn.classList.add("accent");
+    showToast("Quote copied to clipboard");
     setTimeout(() => {
       icon.className = originalIcon;
       copyQuoteBtn.classList.remove("accent");
     }, 2000);
   });
 });
+
 tweetQuoteBtn.addEventListener("click", () => {
   const tweetText = `${currentQuote.text} - ${currentQuote.author}`;
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
@@ -3966,32 +3985,37 @@ tweetQuoteBtn.addEventListener("click", () => {
   )}&hashtags=InspireMe,Motivation`;
   window.open(tweetUrl, "_blank");
 });
+
 whatsappBtn.addEventListener("click", () => {
   const text = `${currentQuote.text} - ${currentQuote.author}`;
   const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");
 });
+
 instagramBtn.addEventListener("click", () => {
-  alert(
-    "For Instagram sharing, please download the image first and then upload it to your Instagram story or post."
-  );
+  showToast("Download the image first, then upload to Instagram");
   downloadQuote("png");
 });
+
 downloadQuoteBtn.addEventListener("click", (e) => {
   e.stopPropagation();
   downloadOptions.classList.toggle("show");
 });
+
 document.querySelectorAll(".download-options button").forEach((btn) => {
   btn.addEventListener("click", (e) => {
     e.stopPropagation();
     const format = e.target.getAttribute("data-format");
     downloadQuote(format);
     downloadOptions.classList.remove("show");
+    showToast(`Quote downloaded as ${format.toUpperCase()}`);
   });
 });
+
 document.addEventListener("click", () => {
   downloadOptions.classList.remove("show");
 });
+
 quoteForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const quote = document.getElementById("quote").value.trim();
@@ -3999,16 +4023,65 @@ quoteForm.addEventListener("submit", (e) => {
   if (quote && author) {
     addUserQuote(quote, author, currentLanguage);
     quoteForm.reset();
+
     const submitBtn = quoteForm.querySelector("button");
-    const icon = submitBtn.querySelector("i");
     const originalText = submitBtn.innerHTML;
     submitBtn.innerHTML = '<i class="fas fa-check"></i> Submitted!';
+    showToast("Quote submitted to community");
+
     setTimeout(() => {
       submitBtn.innerHTML = originalText;
     }, 2000);
   }
 });
-loadUserQuotes();
+
+communityQuoteForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const quote = document.getElementById("communityQuote").value.trim();
+  const author = document.getElementById("communityAuthor").value.trim();
+
+  if (quote && author) {
+    addCommunityQuote(
+      quote,
+      author,
+      currentLanguage,
+      selectedCommunityTemplateId
+    );
+    communityQuoteForm.reset();
+
+    const submitBtn = communityQuoteForm.querySelector("button");
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<i class="fas fa-check"></i> Shared!';
+    showToast("Quote shared with community");
+
+    setTimeout(() => {
+      submitBtn.innerHTML = originalText;
+    }, 2000);
+  }
+});
+
+applyTemplateBtn.addEventListener("click", () => {
+  for (let i = 1; i <= 220; i++) {
+    quoteCard.classList.remove(`template-${i}`);
+  }
+  quoteCard.classList.add(`template-${currentTemplateId}`);
+  const selectedTemplate = templates.find((t) => t.id === currentTemplateId);
+  quoteCard.style.background = selectedTemplate.color;
+
+  if (
+    selectedTemplate.color.includes("gradient") ||
+    (selectedTemplate.color.startsWith("#") &&
+      !selectedTemplate.color.includes("rgba"))
+  ) {
+    quoteCard.style.color = "white";
+    quoteAuthor.style.color = "rgba(255,255,255,0.9)";
+  } else {
+    quoteCard.style.color = "";
+    quoteAuthor.style.color = "";
+  }
+
+  showToast("Template applied successfully");
+});
 function getRandomQuote() {
   const quotes = quotesData[currentLanguage];
   const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -4020,116 +4093,159 @@ function renderTemplates() {
   templates.forEach((template) => {
     const templateElement = document.createElement("div");
     templateElement.className = "template-option";
+    if (template.id === currentTemplateId) {
+      templateElement.classList.add("selected");
+    }
     templateElement.setAttribute("data-template", `template-${template.id}`);
     templateElement.innerHTML = `
-            <div class="template-preview" style="background: ${
-              template.color
-            }; ${
-      typeof template.color === "string" &&
-      template.color.startsWith("linear-gradient")
-        ? "color: white;"
-        : ""
-    }">
-                <i class="fas ${template.icon}" style="font-size: 2rem;"></i>
-                <div class="template-name">${template.name}</div>
-            </div>
-        `;
+                    <div class="template-preview" style="background: ${template.color}; ${
+                      typeof template.color === "string" &&
+                      template.color.startsWith("linear-gradient")
+                        ? "color: white;"
+                        : ""
+                    }">
+                        <i class="fas ${template.icon}" style="font-size: 2rem;"></i>
+                        <div class="template-name">${template.name}</div>
+                    </div>
+                `;
 
     templateElement.addEventListener("click", () => {
-      selectTemplate(template.id);
-      quoteCard.style.background = template.color;
+      currentTemplateId = template.id;
+      document.querySelectorAll(".template-option").forEach((opt) => {
+        opt.classList.remove("selected");
+      });
+      templateElement.classList.add("selected");
+      templatePreviewCard.className = "quote-card quote-of-the-day";
+      for (let i = 1; i <= 220; i++) {
+        templatePreviewCard.classList.remove(`template-${i}`);
+      }
+      templatePreviewCard.classList.add(`template-${template.id}`);
+      templatePreviewText.textContent = currentQuote.text;
+      templatePreviewAuthor.textContent = `— ${currentQuote.author}`;
+      templatePreviewCard.style.background = template.color;
+
       if (
-        typeof template.color === "string" &&
-        (template.color.startsWith("linear-gradient") ||
-          template.color.startsWith("#")) &&
-        !template.color.includes("rgba")
+        template.color.includes("gradient") ||
+        (template.color.startsWith("#") && !template.color.includes("rgba"))
       ) {
-        quoteCard.style.color = "white";
-        quoteCard.querySelector(".quote-author").style.color =
-          "rgba(255,255,255,0.9)";
+        templatePreviewCard.style.color = "white";
+        templatePreviewAuthor.style.color = "rgba(255,255,255,0.9)";
       } else {
-        quoteCard.style.color = "";
-        quoteCard.querySelector(".quote-author").style.color = "";
+        templatePreviewCard.style.color = "";
+        templatePreviewAuthor.style.color = "";
       }
     });
 
     templateGrid.appendChild(templateElement);
   });
-  if (templates.length > 0) {
-    selectTemplate(1);
-  }
 }
-function selectTemplate(templateId) {
-  for (let i = 1; i <= 200; i++) {
-    quoteCard.classList.remove(`template-${i}`);
-  }
-  quoteCard.classList.add(`template-${templateId}`);
-  document.querySelectorAll(".template-option").forEach((option) => {
-    option.classList.remove("selected");
+
+function renderCommunityTemplates() {
+  communityTemplateGrid.innerHTML = "";
+  templates.slice(0, 20).forEach((template) => {
+    const templateElement = document.createElement("div");
+    templateElement.className = "community-template-option";
+    if (template.id === selectedCommunityTemplateId) {
+      templateElement.classList.add("selected");
+    }
+    templateElement.setAttribute("data-template", `template-${template.id}`);
+    templateElement.innerHTML = `
+                    <div class="community-template-preview" style="background: ${template.color}; ${
+                      typeof template.color === "string" &&
+                      template.color.startsWith("linear-gradient")
+                        ? "color: white;"
+                        : ""
+                    }">
+                    <i class="fas ${template.icon}"></i>
+                    </div>
+                `;
+
+    templateElement.addEventListener("click", () => {
+      selectedCommunityTemplateId = template.id;
+      document.querySelectorAll(".community-template-option").forEach((opt) => {
+        opt.classList.remove("selected");
+      });
+      templateElement.classList.add("selected");
+    });
+
+    communityTemplateGrid.appendChild(templateElement);
   });
-  document
-    .querySelector(`.template-option[data-template="template-${templateId}"]`)
-    .classList.add("selected");
 }
 
 function updateQuoteDisplay() {
   quoteText.textContent = currentQuote.text;
   quoteAuthor.textContent = `— ${currentQuote.author}`;
+  templatePreviewText.textContent = currentQuote.text;
+  templatePreviewAuthor.textContent = `— ${currentQuote.author}`;
 }
 
 function animateQuoteChange() {
   quoteCard.style.animation = "none";
   void quoteCard.offsetWidth; 
   quoteCard.style.animation = "slideUp 0.5s ease";
+
+  templatePreviewCard.style.animation = "none";
+  void templatePreviewCard.offsetWidth;
+  templatePreviewCard.style.animation = "slideUp 0.5s ease";
 }
 
-function addUserQuote(text, author, language) {
+function addUserQuote(text, author) {
   const quote = {
     text,
     author,
-    language,
+    templateId: 1,
     date: new Date().toLocaleDateString("en-US", {
       year: "numeric",
       month: "short",
       day: "numeric",
     }),
   };
-  displayUserQuote(quote);
-  saveUserQuote(quote);
+
+  displayCommunityQuote(quote);
+  saveCommunityQuote(quote);
 }
 
-function displayUserQuote(quote) {
-  const languageNames = {
-    en: "English",
-    hi: "Hindi",
-    ne: "Nepali",
+function addCommunityQuote(text, author, templateId) {
+  const quote = {
+    text,
+    author,
+
+    templateId,
+    date: new Date().toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    }),
   };
 
+  displayCommunityQuote(quote);
+  saveCommunityQuote(quote);
+}
+
+function displayCommunityQuote(quote) {
+  const template = templates.find((t) => t.id === quote.templateId);
   const quoteCard = document.createElement("div");
   quoteCard.className = "user-quote-card";
+
   quoteCard.innerHTML = `
-                <p class="user-quote-text">"${quote.text}"</p>
+                <div class="template-badge">${template.name}</div>
+                <p class="user-quote-text" style="color: ${getTextColorForTemplate(template)}">"${quote.text}"</p>
                 <p class="user-quote-author">— ${quote.author}</p>
-                <p class="user-quote-date">${quote.date}</p>
+                <p class="user-quote-date">${quote.date} </p>
                 
                 <div class="user-quote-actions">
-                    <button class="secondary" data-quote="${encodeURIComponent(
-                      quote.text
-                    )}" data-author="${encodeURIComponent(quote.author)}">
-                        <i class="fas fa-copy"></i> Copy
-                    </button>
-                    <button class="accent" data-quote="${encodeURIComponent(
-                      quote.text
-                    )}" data-author="${encodeURIComponent(quote.author)}">
+                    <button class="accent" data-quote="${encodeURIComponent(quote.text)}" data-author="${encodeURIComponent(quote.author)}">
                         <i class="fab fa-twitter"></i> Tweet
                     </button>
-                    <button class="whatsapp" data-quote="${encodeURIComponent(
-                      quote.text
-                    )}" data-author="${encodeURIComponent(quote.author)}">
+                    <button class="whatsapp" data-quote="${encodeURIComponent(quote.text)}" data-author="${encodeURIComponent(quote.author)}">
                         <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button class="download-community-quote" data-template="${quote.templateId}" data-quote="${encodeURIComponent(quote.text)}" data-author="${encodeURIComponent(quote.author)}">
+                        <i class="fas fa-download"></i> Download
                     </button>
                 </div>
             `;
+  quoteCard.style.background = template.color;
   quoteCard.querySelectorAll(".user-quote-actions button").forEach((btn) => {
     if (btn.querySelector(".fa-copy")) {
       btn.addEventListener("click", () => copyUserQuote(btn));
@@ -4137,6 +4253,8 @@ function displayUserQuote(quote) {
       btn.addEventListener("click", () => tweetUserQuote(btn));
     } else if (btn.querySelector(".fa-whatsapp")) {
       btn.addEventListener("click", () => whatsappUserQuote(btn));
+    } else if (btn.querySelector(".fa-download")) {
+      btn.addEventListener("click", () => downloadCommunityQuote(btn));
     }
   });
 
@@ -4154,6 +4272,7 @@ function copyUserQuote(btn) {
     icon.className = "fas fa-check";
     btn.classList.remove("secondary");
     btn.classList.add("accent");
+    showToast("Quote copied to clipboard");
     setTimeout(() => {
       icon.className = originalIcon;
       btn.classList.remove("accent");
@@ -4180,16 +4299,65 @@ function whatsappUserQuote(btn) {
   window.open(url, "_blank");
 }
 
-function saveUserQuote(quote) {
-  let userQuotes = JSON.parse(localStorage.getItem("userQuotes")) || [];
-  userQuotes.unshift(quote); 
-  localStorage.setItem("userQuotes", JSON.stringify(userQuotes));
+function downloadCommunityQuote(btn) {
+  const templateId = btn.getAttribute("data-template");
+  const quote = decodeURIComponent(btn.getAttribute("data-quote"));
+  const author = decodeURIComponent(btn.getAttribute("data-author"));
+  const template = templates.find((t) => t.id === parseInt(templateId));
+  const tempCard = document.createElement("div");
+  tempCard.className = "quote-card";
+  tempCard.style.background = template.color;
+  tempCard.style.color = getTextColorForTemplate(template);
+  tempCard.style.padding = "2rem";
+  tempCard.style.borderRadius = "12px";
+  tempCard.style.width = "800px";
+  tempCard.style.position = "fixed";
+  tempCard.style.left = "-9999px";
+  tempCard.innerHTML = `
+                <h2 style="color: ${getTextColorForTemplate(template)}"><i class="fas fa-quote-left"></i> Community Quote</h2>
+                <p class="quote-text" style="font-size: 1.5rem; font-style: italic; margin: 1.5rem 0; color: ${getTextColorForTemplate(template)}">${quote}</p>
+                <p class="quote-author" style="color: ${getTextColorForTemplate(template)}; opacity: 0.9">— ${author}</p>
+            `;
+
+  document.body.appendChild(tempCard);
+
+  html2canvas(tempCard, {
+    backgroundColor: null,
+    scale: 2,
+    logging: false,
+    useCORS: true,
+  }).then((canvas) => {
+    const link = document.createElement("a");
+    link.download = "community-quote.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+    document.body.removeChild(tempCard);
+    showToast("Quote image downloaded");
+  });
 }
 
-function loadUserQuotes() {
-  const userQuotes = JSON.parse(localStorage.getItem("userQuotes")) || [];
-  userQuotes.forEach((quote) => {
-    displayUserQuote(quote);
+function getTextColorForTemplate(template) {
+  if (
+    template.color.includes("gradient") ||
+    (template.color.startsWith("#") && !template.color.includes("rgba"))
+  ) {
+    return "white";
+  }
+  return "inherit";
+}
+
+function saveCommunityQuote(quote) {
+  let communityQuotes =
+    JSON.parse(localStorage.getItem("communityQuotes")) || [];
+  communityQuotes.unshift(quote);
+  localStorage.setItem("communityQuotes", JSON.stringify(communityQuotes));
+}
+
+function loadCommunityQuotes() {
+  const communityQuotes =
+    JSON.parse(localStorage.getItem("communityQuotes")) || [];
+  communityQuotes.forEach((quote) => {
+    displayCommunityQuote(quote);
   });
 }
 
@@ -4268,4 +4436,12 @@ function downloadAsPDF() {
   );
 
   doc.save("motivational-quote.pdf");
+}
+
+function showToast(message) {
+  toastMessage.textContent = message;
+  toast.classList.add("show");
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3000);
 }
